@@ -13,9 +13,9 @@ python network.py
 5000-5003
 
 
-1)post   -  at/launch
+1) post   -  at/launch
 
-2)post  - write/data
+2) post  - write/data
 
 on body raw json
 
@@ -32,4 +32,4 @@ on body raw json
     
 }
 
-3)get -   get/chain
+3) get -   get/chain
