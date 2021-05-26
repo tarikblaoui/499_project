@@ -7,7 +7,7 @@ node_identifier = str(uuid4()).replace('-', '')
 blockchain = Blockchain()
 
 
-# launch this at the start to add the files into the nodes
+# launch this at the start to add the files into the network nodes
 @app.route('/at/launch', methods=['GET', 'POST'])
 def at_launch():
     blockchain.at_launch()
