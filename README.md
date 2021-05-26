@@ -5,7 +5,13 @@ Repository for Hunter CS capstone project
 
 keeps track of the edits of the files and keep a record of the edits in the blockchain system. The edits will be based on the fat log of the file with the entire link of the file and its location across the network.
 
-How to run 
+The fat file will be formated as 
+
+Fat_info = [ ‘file_name’, ‘node_number’, ‘node_number_location’ ]
+
+Address_info = [ ‘data’, ‘next_node_number’, ‘next_node_number_location’] 
+
+# How to run 
 
 make 4 nodes on pycharm
 
