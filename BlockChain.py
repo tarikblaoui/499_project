@@ -1,3 +1,6 @@
+# Qiao Gan Chen
+# Maryam Amjad
+
 import hashlib
 import json
 from urllib.parse import urlparse
