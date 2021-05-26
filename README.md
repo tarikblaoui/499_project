@@ -1,6 +1,35 @@
 # 499_project
 Repository for Hunter CS capstone project 
 
+# IPFS
+
+usage:
+
+compile client and sever code:
+
+    g++ server.cpp -o server
+    g++ client.cpp -o client
+    
+creat disks and filesystems directories:
+
+    mkdir disks filesystems
+
+create 4 linked disks with the script
+
+    python3 disk_create.py 
+ 
+ start 3 servers in the background:
+    
+    ./start_servers.sh
+
+write to the linked disks:
+    
+    ./client cat "data" file_name.txt
+
+read from the linked disks:
+   
+    ./client echo file_name.txt
+
 # Blockchain
 
 keeps track of the edits of the files and keep a record of the edits in the blockchain system. The edits will be based on the fat log of the file with the entire link of the file and its location across the network.
