@@ -73,3 +73,17 @@ python3 regression.py %filename% %variable 1% %variable 2% ... %variable n% %tar
 
 Will only work with numerical data, and best with continuous, not catagorical data
 
+# Networking
+
+Running the server:
+
+./server portnumber
+
+Running the clients:
+
+./client portnumber message
+
+Portnumber for server and clients should all be the same
+
+
+
