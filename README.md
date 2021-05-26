@@ -3,8 +3,9 @@ Repository for Hunter CS capstone project
 
 ## Blockchain
 
-How to run 
+keeps track of the edits of the files and keep a record of the edits in the blockchain system. The edits will be based on the fat log of the file with the entire link of the file and its location across the network.
 
+How to run 
 
 make 4 nodes on pycharm
 
