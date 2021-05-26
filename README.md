@@ -40,3 +40,36 @@ on body raw json
 }
 
 3) get -   get/chain
+
+
+
+# Regression
+
+Files:
+
+regressions.py
+
+regressions.ipynb (jupyter notebook for visualization)
+
+Life Expectancy DataLife Expectancy Data.csv (from https://www.kaggle.com/kumarajarshi/life-expectancy-who)
+
+
+Usage:
+
+command line with no arguments:
+
+python3 regression.py
+
+WILL NOT WORK UNLESS YOU DOWNLOAD THE DATASET ABOVE
+
+
+command line with arguments:
+
+python3 regression.py %filename% %variable 1% %variable 2% ... %variable n% %target variable%
+
+%filename% must point to a csv
+
+%variables% must be part of the header row inside %filename%
+
+Will only work with numerical data, and best with continuous, not catagorical data
+
