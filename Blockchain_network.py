@@ -6,7 +6,7 @@ app = Flask(__name__)
 node_identifier = str(uuid4()).replace('-', '')
 blockchain = Blockchain()
 
-
+# testing
 # launch this at the start to add the files into the network nodes
 @app.route('/at/launch', methods=['GET', 'POST'])
 def at_launch():
